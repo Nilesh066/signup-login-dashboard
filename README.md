@@ -54,7 +54,7 @@ mongoDB database
 2. Paste all the files from database_mongoDB inside dump file.
 3. Run command prompt as administrator.
 4. Change the directory to "C:\Program Files\MongoDB\Server\4.0\bin".
-5. Type mongorestore --db book-an-appoinment
+5. Type mongorestore --db regalmojo
 
 ## For starting frontEnd
 1. Open cmd.
@@ -67,4 +67,5 @@ Start mongod.exe file in present in "C:\Program Files\MongoDB\Server\4.0\bin".
 ## For starting backEnd
 1. Open cmd.
 2. Change the directory to the project location->BackEnd folder.
-3. Type "node backEnd.js".
+3. npm install express && cors.
+4. Type "node backEnd.js".
